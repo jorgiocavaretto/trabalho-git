@@ -1,4 +1,5 @@
 import './Site.css';
+import Item3 from './Item3'
 import { useState } from 'react'
 
   
@@ -26,7 +27,7 @@ function Site() {
         </div>
         <div class="caixa-central">
           <p class="conteudo-caixa-central">{nome} <br></br> {telefone}</p>
-          <item3></item3>
+          <Item3></Item3>
         </div>
       </header>
     </div>
